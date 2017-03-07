@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/grades_taker_header">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:animateLayoutChanges="true"
+
+            android:divider="?android:dividerHorizontal"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:showDividers="middle">
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!-- The "empty" view to show when there are no items in the "list" view defined above. -->
+    <!-- The "empty" view to show when there are no items in the "list" view defined above. -->
+
+
+

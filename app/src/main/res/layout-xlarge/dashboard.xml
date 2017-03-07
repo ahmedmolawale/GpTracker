@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/abc_search_url_text_normal"
+            android:dividerPadding="@dimen/abc_config_prefDialogWidth"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/welcome_on_dashboard"
+                    android:textColor="#000000"
+                    android:textSize="35sp" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_marginBottom="0dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/current_session1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:drawableLeft="@mipmap/ic_current_sess"
+                    android:drawableStart="@mipmap/ic_current_sess"
+                    android:text="@string/current_session"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="35sp" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_marginBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/previous_session1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:drawableLeft="@mipmap/ic_previous_sess"
+                    android:drawableStart="@mipmap/ic_previous_sess"
+                    android:text="@string/previous_session"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#ffffffff"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/grades_on_dashboard"
+                    android:textColor="#000000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_marginBottom="0dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/view_grades1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:drawableLeft="@mipmap/ic_view_grade"
+                    android:drawableStart="@mipmap/ic_view_grade"
+                    android:text="@string/view_grades"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#ffffffff"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/status_on_dashboard"
+                    android:textColor="#000000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_marginBottom="0dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/current_cgpa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:drawableLeft="@mipmap/ic_current_cgpa"
+                    android:drawableStart="@mipmap/ic_current_cgpa"
+                    android:text="@string/current_cgpa"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="35sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_marginBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/settings1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:drawableLeft="@mipmap/ic_setting"
+                    android:drawableStart="@mipmap/ic_setting"
+                    android:text="@string/settings_on_dashboard"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- The navigation drawer -->
+    <RelativeLayout
+        android:id="@+id/drawerPane"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <!-- Profile Box -->
+
+        <RelativeLayout
+            android:id="@+id/profileBox"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@color/material_blue_grey_800"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginTop="15dp"
+                app:border_color="@color/black"
+                app:border_width="1dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_toRightOf="@+id/profile_image1"
+                android:layout_toEndOf="@+id/profile_image1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/accountOwner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acctOwnerName"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/accountOwnerDept1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/accountOwnerMail"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- List of Actions (pages) -->
+        <ListView
+            android:id="@+id/navList"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profileBox"
+            android:background="#ffffffff"
+            android:choiceMode="singleChoice" />
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

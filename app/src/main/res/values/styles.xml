@@ -1,0 +1,87 @@
+<resources>
+
+    <style name="AppTheme2" parent="android:Theme.Holo.Light" />
+
+    <style name="GPTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- customize the color palette -->
+
+        <item name="colorPrimary">@color/status_bar_color</item>
+        <item name="colorPrimaryDark">@color/app_bar_color</item>
+        <item name="colorAccent">@color/ui_component_color</item>
+    </style>
+
+    <style name="GPTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="GPTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme4" parent="@android:style/Theme.Translucent"></style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+
+    <!-- Customize your theme here. -->
+
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- customize the color palette -->
+
+        <item name="colorPrimary">@color/app_bar_color</item>
+        <item name="colorPrimaryDark">@color/status_bar_color</item>
+        <item name="colorAccent">@color/ui_component_color</item>
+    </style>
+
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomTheme" parent="@style/Theme.AppCompat.Light">
+
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="actionMenuTextColor">@color/blue</item>
+
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+
+        <!-->item name="actionBarTabStyle">@style/MyActionBarTabStyle</item-->
+
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_color</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background_color</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+
+
+    </style>
+
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <!-- The textColor property is backward compatible with the Support Library -->
+    </style>
+
+    <style name="MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/black</item>
+        <!-- The textColor property is backward compatible with the Support Library -->
+    </style>
+
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/actionbar_background_color</item>
+    </style>
+
+
+</resources>
+
+

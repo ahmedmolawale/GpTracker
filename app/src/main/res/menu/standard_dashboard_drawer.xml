@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email_result"
+            android:icon="@mipmap/ic_email"
+            android:title="@string/email_result" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/ic_help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_recommended_app"
+            android:icon="@mipmap/ic_recommend"
+            android:title="@string/recommeded" />
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@mipmap/ic_credits"
+            android:title="@string/credits" />
+        <item
+            android:id="@+id/nav_abount"
+            android:icon="@mipmap/ic_about"
+            android:title="@string/abouts" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@mipmap/ic_feedback"
+                android:title="@string/feedback" />
+        </menu>
+    </item>
+
+</menu>

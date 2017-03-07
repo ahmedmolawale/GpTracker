@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GP Tracker</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="registration_reg">Create Account</string>
+    <string name="name_reg">Name</string>
+    <string name="dept_reg">Department</string>
+    <string name="matricno_reg">Matric No</string>
+    <string name="password_reg">Password</string>
+    <string name="email_reg">Email</string>
+    <string name="register_reg">Create</string>
+    <string name="title_edit_grade_activity">Edit Grade</string>
+
+    <string name="success_message">One more step to go!\n\nPlease select your Grade Point System:</string>
+    <string name="fourpoint_gp">4 - Point Scale</string>
+    <string name="fivepoint_gp">5 - Point Scale</string>
+    <string name="sevenpoint_gp">7 - Point Scale</string>
+    <string name="current_level_of_study">Current Level of study:</string>
+    <string-array name="current_level">
+        <item>--Level--</item>
+        <item>100 Level</item>
+        <item>200 Level</item>
+        <item>300 Level</item>
+        <item>400 Level</item>
+        <item>500 Level</item>
+        <item>600 Level</item>
+        <item>Other Levels</item>
+    </string-array>
+    <string name="proceed_gp">Proceed</string>
+
+    <string name="loginText">Sign In Here</string>
+    <string name="matrichint_on_login">Matric No</string>
+    <string name="passwordhint_on_login">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_button1">Sign In?</string>
+    <string name="create_on_login">Create a New Account</string>
+
+    <string name="welcome_on_dashboard">Welcome\nStart by entering grades for the current session\nOr click on previous session to add courses before now.</string>
+    <string name="current_session">Current Session</string>
+    <string name="previous_session">Previous Session(s)</string>
+    <string name="grades_on_dashboard">Grades\nView your grades in courses you\'ve taken so far.\nChanges can also be made here.</string>
+    <string name="view_grades">View Grades</string>
+    <string name="status_on_dashboard">Status\nSee your current CGPA and class below.\nYou can turn this off in the settings.</string>
+    <string name="current_cgpa">Current CGPA</string>
+    <string name="settings_on_dashboard">Settings</string>
+    <string name="title_activity_grades_taker">GradesTaker</string>
+
+    <string name="name_on_dashb">Name</string>
+    <string name="matric_on_dashb">Matric No</string>
+    <string name="course_code_hint">Course code</string>
+    <string name="update_edit">Update</string>
+    <string name="cancel_edit">Cancel</string>
+
+
+    <string-array name="units">
+        <item>Unit</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="gradesForFourPointsScale">
+        <item>Grade</item>
+        <item>A</item>
+        <item>AB</item>
+        <item>B</item>
+        <item>BC</item>
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+
+
+    <string-array name="gradesForFivePointsScale">
+        <item>Grade</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="gradesForSevenPointsScale">
+        <item>Grade</item>
+        <item>7 pts</item>
+        <item>6 pts</item>
+        <item>5 pts</item>
+        <item>4 pts</item>
+        <item>3 pts</item>
+        <item>2 pts</item>
+        <item>1 pt</item>
+        <item>0 pt</item>
+    </string-array>
+    <string name="title_activity_grade_viewer">GradeViewer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="class_of_grade_on_analysis">Class of Grade:</string>
+    <string name="level_gpa_on_analysis">Level Grade Point Average:</string>
+    <string name="second_semester_on_analysis">Second Semester Grade Point</string>
+    <string name="first_semester_on_analysis">First Semester Grade Point</string>
+    <string name="courses_taken_on_analysis">Course Taken So Far:</string>
+    <string name="level_on_analysis">Analysis For:</string>
+    <string name="matric_on_analysis">Matric No</string>
+    <string name="name_on_analysis">Name</string>
+    <string name="gp_system_on_analysis">Grade Point System:</string>
+    <string name="no_grade_yet">No grades yet.</string>
+    <string name="cgpa">cgpa</string>
+
+    <string name="pref_checkbox1_key">pref_checkbox1_key</string>
+    <string name="disable_cgpa">Disable CGPA on Dashboard</string>
+    <string name="disable_cgpa_description">Disabled</string>
+    <string name="pref_level_title">Change current level</string>
+    <string name="pref_level_key">pref_level_key</string>
+    <string name="pref_password_summary">Tap here to change Password</string>
+    <string name="pref_password_key">pref_password_key</string>
+    <string name="pref_change_password">Change Password</string>
+    <string name="title_on_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+
+
+    <string name="about">Manage your course grades effectively. It follows you up throughout your stay in school.\n\nYou can connect with me via my social platforms: </string>
+    <string name="facebook_in_about">Facebook</string>
+    <string name="youtube_in_about">Youtube</string>
+    <string name="twitter_in_about">Twitter</string>
+
+    <string name="action_about">About</string>
+
+
+    <string name="feedbacktitle">Enter feedback details to send to the developer.</string>
+    <string name="feedbackname">Full Name</string>
+    <string name="feedbackemail">Email</string>
+    <string name="feedbackbody">Message here&#8230;</string>
+    <string name="feedbackresponse">Would you like an email response?</string>
+    <string name="feedbackbutton">Send feedback</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="action_feedback">Feedback</string>
+
+
+    <!--Other string resources also defined in this file… -->
+    <string-array name="feedbacktypelist">
+        <item>Praise</item>
+        <item>Suggestion</item>
+        <item>Report Error</item>
+        <item>Criticize</item>
+
+    </string-array>
+
+    <string name="swipe_left">Swipe left</string>
+    <string name="welcome_message">We are sure you will have an amazing experience.</string>
+    <string name="welcome_msg">Welcome!</string>
+    <string name="score">Score</string>
+    <string name="dormant_course_code">CSC101</string>
+    <string name="dormant_unit">Units:</string>
+    <string name="dormant_score">Score:</string>
+    <string name="dormant_grade">Grade:</string>
+    <string name="pref_delete_grades_key">delete_grades_key</string>
+    <string name="pref_delete_user_key">delete_user_key</string>
+    <string name="delete_grades_title">Delete grades</string>
+    <string name="delete_grades_summary">Delete all my grades so far.</string>
+    <string name="delete_account_title">Delete account</string>
+    <string name="delete_account_summary">Delete my account and all my grades.</string>
+    <string name="data_section">Data (Use with caution)</string>
+    <string name="acctOwnerName">Account Owner</string>
+    <string name="accountOwnerMail">Account Owner Mail</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="title_activity_help">Help Section</string>
+    <string name="pref_change_email">Change Email</string>
+    <string name="pref_email_key">pref_email_key</string>
+    <string name="pref_email_summary">Change your email here</string>
+    <string name="first_heading">How to Enter Grades</string>
+    <string name="first_heading_message">1. Click on \'Current Session\' on the Dashboard to enter grades for your
+                                            current level or on \'Previous Session\' to enter grades before that level.\n\n
+                                        2. Select the appropriate semester.\n\n
+                                        3. Click on \'Add a new grade\' as many times as the no of grades you want to enter.\n\n
+                                        4. When you are done, click \'Save\' to save the grades.\n\n
+                                        5. Your GPA for that semester will be computed and saved.\n\n</string>
+    <string name="second_heading">How to View Grades, GPA and CGPA</string>
+    <string name="second_heading_message"> 1. Click on \'View Grades\' on the Dashboard.\n\n
+                                            2. Select the appropriate level to view its grades.\n\n
+                                            3. The system present you with an intuitive and elegant view of your grades and analysis.\n\n
+                                            4. You can Edit/Delete any grade by long-pressing on it.\n\n
+                                            5. You can view your current CGPA by clicking on \'Current CGPA\' on the dashboard.
+                                            </string>
+    <string name="personalization">* You can also personalize your account by tapping on the Image Icon in the Navigation Drawer to upload a picture and lots more!</string>
+    <string name="account_settings">** You can use the \'Settings\' to change your current level when a new academic session begins
+                                    and many more!</string>
+    <string name="first_about">GP Tracker allows students of Tertiary Institutions to calculate their
+                                GPA and CGPA based on their grade point scale during their Academic years of study.</string>
+    <string name="second_about">Students can track their Academic performance Session by Session, Semester by Semester, viewing all
+                                their recorded results. It\'s an intelligent System that gives analysis of results for the various
+                                sessions you\'ve taken.</string>
+    <string name="credits_section">Credits</string>
+    <string name="pref_developer_key">pref_developer_key</string>
+    <string name="developer_title">Ahmed Olawale</string>
+    <string name="developer_summary">Idea. Code. Design.</string>
+    <string name="icon_designer_title">Abiodun Ajewole</string>
+    <string name="pref_icon_designer_key">pref_icon_designer_key</string>
+    <string name="icon_designer_summary">Icon Design.</string>
+    <string name="title_on_credits">Credits</string>
+    <string name="title_activity_recommended_app">Recommended Apps</string>
+    <string name="time_table">Timetable Manager</string>
+    <string name="ad_new_grade">Add a new Grade</string>
+    <string name="save_grade">Save</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="title_activity_user_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_matric_no">Matric No.</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to login -->
+
+    <string name="user_login">Sign In</string>
+    <string name="keep_me_in">Keep me logged in</string>
+    <string name="title_activity_user_registration">Registration</string>
+    <string name="action_create_now">Create Account</string>
+    <string name="action_create_new">Create Account</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_logout">Log out</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_phone">Phone No.</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="error_field_match">Password not Matched</string>
+    <string name="prompt_dept">Department</string>
+    <string name="action_reg">Create</string>
+    <string name="prompt_email">Email</string>
+    <string name="title_activity_standard_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_reg_screen_activity">New Account</string>
+    <string name="title_sign_in_activity">Sign In</string>
+    <string name="email_result">Email Results</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="recommeded">Recommended Apps</string>
+    <string name="credits">Credits</string>
+    <string name="abouts">About</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="third_about">An APP Developed by Ahmed Olawale\nComputer Science Department\nUniversity of Ibadan</string>
+    <string name="fourth_about">Brought Forward by Dr Seyi Osunade\nItems Director\nUniversity of Ibadan</string>
+
+
+</resources>
